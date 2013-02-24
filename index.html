@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CDs</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="cd">
+<h1>List of CDs</h1>
+<ul>
+<li><a rel="cd" href="0075596029629.html">Heartbeat City - The Cars</a></li>
+</ul>
+</div>
+<div id="genres">
+<h2><a rel="genres" href="genres.html">Browse by genres</a></h2>
+</div>
+<div id="add-cd">
+<h2>Add a CD</h2>
+<form method="post" action="/">
+<input type="text" name ="Title" value="Title"/>
+<input type="text" name ="ISBN" value="ISBN"/>
+<input type="submit"/>
+</form>
+</div>
+<div id="query">
+<h2>Search</h2>
+<form method="get" action="/query">
+<input type="text" name="title" value="Title"/>
+<input type="text" name="artist" value="Artist"/>
+<input type="text" name="song-name" value="Song Name"/>
+<input type="text" name="release-date" value="Release Date"/>
+<input type="submit"/>
+<h2><a rel="query" href="find-cds.html">Query Example</a></h2>
+</form>
+</div>
+</body>
+</html>

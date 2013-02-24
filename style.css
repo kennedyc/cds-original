@@ -1,0 +1,37 @@
+body
+{
+font-family:"Arial";
+font-size:14px;
+}
+
+a 
+{
+color: #000000;
+text-decoration: none;
+}
+a:hover
+{
+color: #666666;
+text-decoration: none; 
+}
+
+h1{
+font-size: 25px;
+}
+h2{
+font-size: 20px;
+}
+
+.cd h1{
+font-size: 30px;
+}
+.cd h2{
+font-size: 18px;
+}
+
+.xxx h1{
+font-size: 25px;
+}
+.xxx h2{
+font-size: 20px;
+}
